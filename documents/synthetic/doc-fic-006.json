@@ -1,0 +1,20 @@
+{
+  "documento_id": "doc-fic-006",
+  "norma_id": "norma-fic-dictamen-dom",
+  "es_sintetico": true,
+  "aviso": "DOCUMENTO SINTÉTICO DE PRUEBA creado por Amalan. NO es un dictamen real de la Contraloría. Uso exclusivo para pruebas del sistema.",
+  "titulo": "Dictamen Ficticio sobre Competencias de la DOM (de prueba)",
+  "tipo_norma": "dictamen",
+  "organismo": "Organismo Ficticio de Prueba (equivalente simulado a una Contraloría ficticia)",
+  "materia": "fiscalización municipal, DOM (ficticio)",
+  "fecha": "2021-09-12",
+  "version": "1.0",
+  "estado_vigencia": "vigente",
+  "articulos": [
+    {
+      "numero": "Considerando 4 (ficticio)",
+      "texto": "Se dictamina, en este caso simulado de prueba, que la Dirección de Obras Municipales ficticia no puede exigir requisitos adicionales a los expresamente contemplados en la normativa ficticia aplicable.",
+      "pagina": "3"
+    }
+  ]
+}

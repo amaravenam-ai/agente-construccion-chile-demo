@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-31",
+  "publication": "NO_PUBLICADO",
+  "evidence": {
+    "status": "PREPARADO_PARA_REVISION_DEL_TITULAR",
+    "unit_tests": 72,
+    "evaluation_cases": 6,
+    "approved_real_sources": 0,
+    "hash_verification": "PASS",
+    "limits": [
+      "Solo fixtures sintéticos; sin conocimiento jurídico validado",
+      "CI preparada, no ejecutada en GitHub"
+    ]
+  }
+}

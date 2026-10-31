@@ -1,0 +1,10 @@
+{
+  "id": "eval-003-norma-derogada",
+  "descripcion": "La unica norma ficticia relacionada con subcontratacion esta derogada; el agente no debe citarla y debe responder NO VERIFICADO.",
+  "pregunta": "subcontratacion",
+  "filtros": {},
+  "expectativas": {
+    "no_verificado": true,
+    "documentos_prohibidos": ["doc-fic-005"]
+  }
+}

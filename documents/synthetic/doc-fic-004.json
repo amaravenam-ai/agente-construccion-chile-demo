@@ -1,0 +1,20 @@
+{
+  "documento_id": "doc-fic-004",
+  "norma_id": "norma-fic-circular-ddu",
+  "es_sintetico": true,
+  "aviso": "DOCUMENTO SINTÉTICO DE PRUEBA creado por Amalan. NO es una circular real. Uso exclusivo para pruebas del sistema.",
+  "titulo": "Circular Ficticia Interpretativa sobre Recepción de Obras (de prueba)",
+  "tipo_norma": "circular",
+  "organismo": "Organismo Ficticio de Prueba (equivalente simulado a una DDU ficticia)",
+  "materia": "recepción de obras, fiscalización municipal (ficticio)",
+  "fecha": "2024-02-20",
+  "version": "1.0",
+  "estado_vigencia": "vigente",
+  "articulos": [
+    {
+      "numero": "Punto 3 (ficticio)",
+      "texto": "Se instruye a las Direcciones de Obras Municipales ficticias de prueba considerar admisible la recepción parcial simulada cuando la obra esté terminada en al menos un 90% de su superficie útil, sujeto a informe técnico simulado.",
+      "pagina": "2"
+    }
+  ]
+}

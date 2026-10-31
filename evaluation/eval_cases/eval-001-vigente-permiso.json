@@ -1,0 +1,11 @@
+{
+  "id": "eval-001-vigente-permiso",
+  "descripcion": "Pregunta con match en la versión vigente de la norma ficticia de edificación; debe citar solo la versión vigente, no una derogada.",
+  "pregunta": "Cual es el plazo simulado de tramitacion del permiso ficticio de edificacion",
+  "filtros": {},
+  "expectativas": {
+    "no_verificado": false,
+    "documentos_esperados_incluyen": ["doc-fic-002"],
+    "documentos_prohibidos": ["doc-fic-005"]
+  }
+}

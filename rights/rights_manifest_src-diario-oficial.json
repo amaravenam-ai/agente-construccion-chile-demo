@@ -1,0 +1,11 @@
+{
+  "source_id": "src-diario-oficial",
+  "permiso_entrenamiento": "NO_VERIFICADO",
+  "permiso_uso_comercial": "si",
+  "permiso_derivados": "NO_VERIFICADO",
+  "evidencia_legal": "Investigación realizada el 2026-07-19 leyendo https://www.diariooficial.interior.gob.cl/condiciones/ . Hallazgo positivo explícito para uso comercial: la página declara que 'la reutilización del Diario Oficial está abierta a todos, incluso para aquellos que ya exploten legítimamente productos con valor añadido' basados en sus contenidos, y que 'el Diario Oficial no otorgará a órganos públicos o privados derechos exclusivos' -- es decir, no hay barrera de exclusividad para reutilización comercial. Condiciones generales exigidas: (a) no alterar el contenido de la publicación, (b) no desnaturalizar el sentido de la información, (c) citar de forma clara y visible que la información proviene del Diario Oficial, (d) mencionar la fecha de la publicación reutilizada. No hay mención alguna a entrenamiento de modelos de IA/machine learning ni a la creación de obras derivadas sustanciales (la exigencia de 'no alterar el contenido' sugiere que reproducir literalmente está permitido, pero no aclara el estatus de resúmenes o transformaciones generadas por IA). Por eso permiso_entrenamiento y permiso_derivados quedan NO_VERIFICADO: la evidencia encontrada no los aborda, ni a favor ni en contra.",
+  "estado_verificacion": "NO_VERIFICADO",
+  "responsable_verificacion": "NO_VERIFICADO — investigación asistida por IA (Claude) el 2026-07-19; pendiente de revisión y confirmación por un responsable humano antes de cualquier cambio de estado.",
+  "fecha_verificacion": null,
+  "notas": "Fuente consultada: https://www.diariooficial.interior.gob.cl/condiciones/ . No se descargó ni copió ningún contenido del Diario Oficial a este repositorio. Aunque hay señal positiva para uso comercial general, la ausencia de permiso_entrenamiento explícito mantiene esta fuente bloqueada para ingesta según la política de rights/verifier.py (los tres permisos deben estar en 'si')."
+}

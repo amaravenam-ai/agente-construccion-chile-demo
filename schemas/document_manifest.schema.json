@@ -1,0 +1,58 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "amalan-construccion-chile/document_manifest.schema.json",
+  "title": "Manifiesto de Documento",
+  "type": "object",
+  "required": [
+    "documento_id",
+    "norma_id",
+    "source_id",
+    "tipo_norma",
+    "materia",
+    "organismo",
+    "fecha",
+    "estado_vigencia",
+    "version",
+    "sha256",
+    "path",
+    "es_sintetico"
+  ],
+  "properties": {
+    "documento_id": { "type": "string", "description": "Identificador único de esta versión específica del documento." },
+    "norma_id": { "type": "string", "description": "Identificador estable compartido por todas las versiones de la misma norma, usado para comparación de versiones." },
+    "source_id": { "type": "string", "description": "Referencia al id en sources/fuentes_aprobadas.json" },
+    "tipo_norma": {
+      "type": "string",
+      "enum": ["ley", "reglamento", "circular", "dictamen", "jurisprudencia", "opinion", "proyecto_de_ley", "otro"]
+    },
+    "materia": { "type": "string" },
+    "organismo": { "type": "string" },
+    "region": { "type": "string" },
+    "comuna": { "type": "string" },
+    "fecha": { "type": "string" },
+    "estado_vigencia": {
+      "type": "string",
+      "enum": ["vigente", "modificada", "derogada", "proyecto", "no_verificada"]
+    },
+    "version": { "type": "string" },
+    "sha256": { "type": "string" },
+    "path": { "type": "string" },
+    "es_sintetico": {
+      "type": "boolean",
+      "description": "true si el documento es un fixture sintético de prueba creado por Amalan y NO representa texto legal real."
+    },
+    "articulos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["numero", "texto"],
+        "properties": {
+          "numero": { "type": "string" },
+          "texto": { "type": "string" },
+          "pagina": { "type": ["string", "number", "null"] }
+        }
+      }
+    }
+  },
+  "additionalProperties": false
+}

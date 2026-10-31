@@ -1,0 +1,21 @@
+{
+  "documento_id": "doc-fic-003",
+  "norma_id": "norma-fic-oguc-accesibilidad",
+  "es_sintetico": true,
+  "aviso": "DOCUMENTO SINTÉTICO DE PRUEBA creado por Amalan. NO es texto legal real ni representa ninguna ordenanza chilena vigente. Uso exclusivo para pruebas del sistema de recuperación y citación.",
+  "titulo": "Reglamento Ficticio de Accesibilidad Universal en Obras (de prueba)",
+  "tipo_norma": "reglamento",
+  "organismo": "Organismo Ficticio de Prueba (equivalente simulado a un MINVU ficticio)",
+  "materia": "accesibilidad universal, eficiencia energética (ficticio)",
+  "region": "Metropolitana (ficticio, solo para prueba de filtros)",
+  "fecha": "2022-03-10",
+  "version": "1.0",
+  "estado_vigencia": "vigente",
+  "articulos": [
+    {
+      "numero": "Artículo 5 (ficticio)",
+      "texto": "Toda edificación de uso público simulada deberá contar con al menos una ruta accesible simulada desde el acceso principal hasta cada nivel habilitado.",
+      "pagina": "4"
+    }
+  ]
+}

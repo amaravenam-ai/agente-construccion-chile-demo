@@ -1,0 +1,20 @@
+{
+  "documento_id": "doc-fic-005",
+  "norma_id": "norma-fic-derogada",
+  "es_sintetico": true,
+  "aviso": "DOCUMENTO SINTÉTICO DE PRUEBA creado por Amalan. NO es texto legal real. Se marca deliberadamente como derogada para probar la detección de derogación del sistema.",
+  "titulo": "Ley Ficticia de Subcontratación en Obras (versión derogada, de prueba)",
+  "tipo_norma": "ley",
+  "organismo": "Organismo Ficticio de Prueba",
+  "materia": "subcontratación, obligaciones laborales (ficticio)",
+  "fecha": "2015-05-01",
+  "version": "1.0",
+  "estado_vigencia": "derogada",
+  "articulos": [
+    {
+      "numero": "Artículo 1 (ficticio, derogado)",
+      "texto": "Texto ficticio de un artículo cuya norma contenedora se encuentra derogada. No debe citarse como vigente bajo ninguna circunstancia.",
+      "pagina": "1"
+    }
+  ]
+}

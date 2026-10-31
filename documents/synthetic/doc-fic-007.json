@@ -1,0 +1,21 @@
+{
+  "documento_id": "doc-fic-007",
+  "norma_id": "norma-fic-jurisprudencia-contrato",
+  "es_sintetico": true,
+  "aviso": "DOCUMENTO SINTÉTICO DE PRUEBA creado por Amalan. NO es un fallo judicial real. Uso exclusivo para pruebas del sistema. Toda jurisprudencia debe presentarse como no vinculante salvo indicación experta.",
+  "titulo": "Sentencia Ficticia sobre Incumplimiento de Contrato de Construcción (de prueba)",
+  "tipo_norma": "jurisprudencia",
+  "organismo": "Organismo Ficticio de Prueba (equivalente simulado a un tribunal ficticio)",
+  "materia": "contratos de construcción (ficticio)",
+  "fecha": "2019-11-30",
+  "version": "1.0",
+  "estado_vigencia": "vigente",
+  "vinculante": false,
+  "articulos": [
+    {
+      "numero": "Considerando 7 (ficticio)",
+      "texto": "En este caso simulado de prueba, se resuelve que el retraso en la entrega de una obra, cuando no derive de caso fortuito, puede dar lugar a indemnización simulada. Esta resolución ficticia no constituye jurisprudencia vinculante ni precedente real.",
+      "pagina": "5"
+    }
+  ]
+}

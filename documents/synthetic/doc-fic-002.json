@@ -1,0 +1,30 @@
+{
+  "documento_id": "doc-fic-002",
+  "norma_id": "norma-fic-edificacion",
+  "es_sintetico": true,
+  "aviso": "DOCUMENTO SINTÉTICO DE PRUEBA creado por Amalan. NO es texto legal real ni representa ninguna ley chilena vigente. Uso exclusivo para pruebas del sistema de recuperación y citación.",
+  "titulo": "Ley Ficticia de Ordenamiento de Edificaciones (versión 2.0, de prueba, modifica versión 1.0)",
+  "tipo_norma": "ley",
+  "organismo": "Organismo Ficticio de Prueba",
+  "materia": "permisos de edificación (ficticio)",
+  "fecha": "2023-06-01",
+  "version": "2.0",
+  "estado_vigencia": "vigente",
+  "articulos": [
+    {
+      "numero": "Artículo 1 (ficticio)",
+      "texto": "Para efectos de esta ley ficticia de prueba, todo proyecto de edificación de más de 4 pisos requerirá un informe técnico simulado de resistencia estructural, presentado ante el organismo ficticio de prueba. Se eleva el umbral respecto de la versión 1.0.",
+      "pagina": "1"
+    },
+    {
+      "numero": "Artículo 2 (ficticio)",
+      "texto": "El plazo simulado de tramitación del permiso ficticio será de 20 días hábiles contados desde el ingreso de la solicitud completa. Se reduce el plazo respecto de la versión 1.0.",
+      "pagina": "1"
+    },
+    {
+      "numero": "Artículo 3 (ficticio, nuevo)",
+      "texto": "Se incorpora un registro simulado de accesibilidad universal, exigible a partir de la versión 2.0 de esta ley ficticia.",
+      "pagina": "2"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "amalan-construccion-chile/rights.schema.json",
+  "title": "Manifiesto de Derechos de Fuente",
+  "type": "object",
+  "required": [
+    "source_id",
+    "permiso_entrenamiento",
+    "permiso_uso_comercial",
+    "permiso_derivados",
+    "evidencia_legal",
+    "estado_verificacion"
+  ],
+  "properties": {
+    "source_id": { "type": "string" },
+    "permiso_entrenamiento": { "type": "string", "enum": ["si", "no", "NO_VERIFICADO"] },
+    "permiso_uso_comercial": { "type": "string", "enum": ["si", "no", "NO_VERIFICADO"] },
+    "permiso_derivados": { "type": "string", "enum": ["si", "no", "NO_VERIFICADO"] },
+    "evidencia_legal": { "type": "string" },
+    "estado_verificacion": {
+      "type": "string",
+      "enum": ["verificado", "NO_VERIFICADO", "rechazado"]
+    },
+    "responsable_verificacion": { "type": "string" },
+    "fecha_verificacion": { "type": ["string", "null"] },
+    "notas": { "type": "string" }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,10 @@
+{
+  "id": "eval-005-jurisprudencia-no-vinculante",
+  "descripcion": "Pregunta que recupera jurisprudencia ficticia; la respuesta debe advertir explicitamente que no es vinculante.",
+  "pregunta": "Que dice la sentencia ficticia sobre incumplimiento de contrato de construccion",
+  "filtros": { "tipo_norma": "jurisprudencia" },
+  "expectativas": {
+    "no_verificado": false,
+    "riesgo_menciona": "NO VINCULANTE"
+  }
+}

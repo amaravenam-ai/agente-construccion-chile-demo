@@ -1,0 +1,35 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "amalan-construccion-chile/provenance.schema.json",
+  "title": "Registro de Procedencia y Auditoría",
+  "type": "object",
+  "required": [
+    "auditoria_id",
+    "timestamp_utc",
+    "pregunta",
+    "documentos_utilizados",
+    "hashes",
+    "no_verificado",
+    "escalamiento_requerido"
+  ],
+  "properties": {
+    "auditoria_id": { "type": "string" },
+    "timestamp_utc": { "type": "string" },
+    "pregunta": { "type": "string" },
+    "documentos_utilizados": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "hashes": {
+      "type": "object",
+      "additionalProperties": { "type": "string" }
+    },
+    "no_verificado": { "type": "boolean" },
+    "escalamiento_requerido": { "type": "boolean" },
+    "alertas_seguridad": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  },
+  "additionalProperties": false
+}

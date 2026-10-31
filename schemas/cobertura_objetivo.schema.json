@@ -1,0 +1,59 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "amalan-construccion-chile/cobertura_objetivo.schema.json",
+  "title": "Cobertura Objetivo del Dominio",
+  "description": "Enumera las normas/áreas específicas que definen el alcance completo que el agente debería cubrir eventualmente. Cada entrada es un objetivo, no una fuente aprobada: nace en estado 'pendiente_investigacion' y solo avanza cuando hay evidencia real registrada en rights/.",
+  "type": "object",
+  "required": ["version_registro", "objetivos"],
+  "properties": {
+    "version_registro": { "type": "string" },
+    "objetivos": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "nombre",
+          "institucion_referente",
+          "materia",
+          "tipo_norma",
+          "estado",
+          "bloque_tematico"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "nombre": { "type": "string" },
+          "institucion_referente": {
+            "type": "string",
+            "description": "id de la fuente institucional relacionada en sources/fuentes_aprobadas.json, si existe."
+          },
+          "materia": { "type": "string" },
+          "tipo_norma": {
+            "type": "string",
+            "enum": ["ley", "reglamento", "circular", "dictamen", "jurisprudencia", "opinion", "proyecto_de_ley", "otro"]
+          },
+          "bloque_tematico": {
+            "type": "string",
+            "description": "Categoría del prompt original del usuario a la que pertenece este objetivo (p. ej. 'permisos_recepciones', 'seguridad_riesgos', 'subcontratacion')."
+          },
+          "estado": {
+            "type": "string",
+            "enum": [
+              "pendiente_investigacion",
+              "investigada_no_verificada",
+              "rechazada",
+              "aprobada"
+            ]
+          },
+          "rights_manifest_ref": {
+            "type": ["string", "null"],
+            "description": "Ruta al archivo en rights/ que sustenta el estado, si ya se investigó."
+          },
+          "notas": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

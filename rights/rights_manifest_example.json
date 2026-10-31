@@ -1,0 +1,12 @@
+{
+  "_leame": "Ejemplo de manifiesto de derechos, conforme a schemas/rights.schema.json. NO implica que la fuente referenciada esté realmente verificada; es un ejemplo de la ESTRUCTURA que debe llenar un responsable humano tras revisar la licencia real de la fuente.",
+  "source_id": "src-leychile-bcn",
+  "permiso_entrenamiento": "NO_VERIFICADO",
+  "permiso_uso_comercial": "NO_VERIFICADO",
+  "permiso_derivados": "NO_VERIFICADO",
+  "evidencia_legal": "NO_VERIFICADO",
+  "estado_verificacion": "NO_VERIFICADO",
+  "responsable_verificacion": "NO_VERIFICADO",
+  "fecha_verificacion": null,
+  "notas": "Placeholder de ejemplo. Antes de ingesta real, un responsable humano debe: (1) leer los términos de uso publicados por la institución, (2) registrar evidencia textual o un enlace archivado de esos términos en 'evidencia_legal', (3) fijar cada permiso en 'si' o 'no' según corresponda, y (4) cambiar 'estado_verificacion' a 'verificado' o 'rechazado'."
+}

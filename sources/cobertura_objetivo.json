@@ -1,0 +1,204 @@
+{
+  "_leame": "Lista de OBJETIVOS de cobertura, no de fuentes aprobadas. Cada entrada nace en 'pendiente_investigacion' o hereda un estado de 'investigada_no_verificada' / 'rechazada' SOLO cuando la investigación institucional ya realizada en rights/ aplica directa y completamente a ese objetivo (p. ej. el rechazo de INN cubre TODAS las normas NCh sin excepción). Ninguna entrada tiene estado 'aprobada'. Los nombres/números de ley aquí listados se citan de memoria general como objetivos de investigación -- deben confirmarse contra Ley Chile antes de cualquier investigación de derechos o ingesta real; no representan vigencia, texto ni artículos verificados.",
+  "version_registro": "0.1.0-inicial",
+  "objetivos": [
+    {
+      "id": "obj-lguc",
+      "nombre": "Ley General de Urbanismo y Construcciones (LGUC, DFL 458 de 1975 y sus modificaciones)",
+      "institucion_referente": "src-leychile-bcn",
+      "materia": "urbanismo y edificación, ley marco",
+      "tipo_norma": "ley",
+      "bloque_tematico": "urbanismo_edificacion",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-leychile-bcn.json",
+      "notas": "Núcleo del dominio. La investigación institucional de BCN/Ley Chile no confirmó derechos para el texto legal completo; ver rights_manifest para detalle y siguiente paso (contacto directo con BCN)."
+    },
+    {
+      "id": "obj-oguc",
+      "nombre": "Ordenanza General de Urbanismo y Construcciones (OGUC, DS 47 de 1992 y sus modificaciones)",
+      "institucion_referente": "src-minvu",
+      "materia": "urbanismo y edificación, reglamento de la LGUC",
+      "tipo_norma": "reglamento",
+      "bloque_tematico": "urbanismo_edificacion",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-minvu.json",
+      "notas": "Núcleo del dominio junto con la LGUC. MINVU no publica términos de uso propios; permiso_entrenamiento ya está en 'no' por aplicación conservadora del Art. 88 Ley 17.336."
+    },
+    {
+      "id": "obj-circulares-ddu",
+      "nombre": "Índice completo de circulares DDU (División de Desarrollo Urbano, MINVU)",
+      "institucion_referente": "src-minvu",
+      "materia": "interpretación oficial de la OGUC",
+      "tipo_norma": "circular",
+      "bloque_tematico": "permisos_recepciones",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-minvu.json",
+      "notas": "Cientos de circulares individuales; no se investigó ninguna circular específica todavía, solo el organismo emisor. Priorizar las circulares generales sobre las específicas al momento de investigar."
+    },
+    {
+      "id": "obj-permisos-edificacion",
+      "nombre": "Normativa sobre permisos de edificación y recepción de obras",
+      "institucion_referente": "src-minvu",
+      "materia": "permisos, recepciones y fiscalización de obras",
+      "tipo_norma": "reglamento",
+      "bloque_tematico": "permisos_recepciones",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-minvu.json",
+      "notas": "Vive dentro de LGUC/OGUC (títulos específicos), no es una norma separada; se registra como objetivo propio porque es un caso de uso central del agente."
+    },
+    {
+      "id": "obj-ordenanzas-dom-comunas",
+      "nombre": "Ordenanzas locales y Direcciones de Obras Municipales de comunas prioritarias",
+      "institucion_referente": "src-municipalidades-dom",
+      "materia": "ordenanzas locales, permisos y recepciones municipales",
+      "tipo_norma": "otro",
+      "bloque_tematico": "municipalidades_dom",
+      "estado": "pendiente_investigacion",
+      "rights_manifest_ref": null,
+      "notas": "BLOQUEADO EN UNA DECISIÓN PREVIA: no se ha decidido qué comunas priorizar (¿las de mayor población? ¿las de mayor actividad de construcción? ¿donde opera el usuario?). Sin esa decisión no se puede ni siquiera empezar a buscar URLs específicas."
+    },
+    {
+      "id": "obj-ley-subcontratacion",
+      "nombre": "Ley 20.123 sobre trabajo en régimen de subcontratación",
+      "institucion_referente": "src-leychile-bcn",
+      "materia": "subcontratación y obligaciones laborales relacionadas",
+      "tipo_norma": "ley",
+      "bloque_tematico": "subcontratacion_laboral",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-leychile-bcn.json",
+      "notas": "Mismo hallazgo que LGUC: hereda el estado de la investigación de BCN/Ley Chile como fuente institucional."
+    },
+    {
+      "id": "obj-codigo-trabajo-construccion",
+      "nombre": "Código del Trabajo, disposiciones aplicables a obras de construcción",
+      "institucion_referente": "src-leychile-bcn",
+      "materia": "obligaciones laborales relacionadas con la construcción",
+      "tipo_norma": "ley",
+      "bloque_tematico": "subcontratacion_laboral",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-leychile-bcn.json",
+      "notas": "Alcance amplio (todo el Código del Trabajo); para efectos de este agente, priorizar solo los artículos con relevancia directa a obras al momento de investigar/ingerir."
+    },
+    {
+      "id": "obj-ley-16744",
+      "nombre": "Ley 16.744 sobre accidentes del trabajo y enfermedades profesionales",
+      "institucion_referente": "src-leychile-bcn",
+      "materia": "seguridad y prevención de riesgos en obras",
+      "tipo_norma": "ley",
+      "bloque_tematico": "seguridad_riesgos",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-leychile-bcn.json",
+      "notas": null
+    },
+    {
+      "id": "obj-ds594",
+      "nombre": "DS 594 — Reglamento sobre condiciones sanitarias y ambientales básicas en los lugares de trabajo",
+      "institucion_referente": "src-leychile-bcn",
+      "materia": "seguridad y prevención de riesgos en obras",
+      "tipo_norma": "reglamento",
+      "bloque_tematico": "seguridad_riesgos",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-leychile-bcn.json",
+      "notas": null
+    },
+    {
+      "id": "obj-ley19300-seia",
+      "nombre": "Ley 19.300 (Bases Generales del Medio Ambiente) y Sistema de Evaluación de Impacto Ambiental (SEIA)",
+      "institucion_referente": "src-sea",
+      "materia": "medio ambiente y evaluación de proyectos",
+      "tipo_norma": "ley",
+      "bloque_tematico": "medio_ambiente",
+      "estado": "pendiente_investigacion",
+      "rights_manifest_ref": null,
+      "notas": "GAP DE REGISTRO RESUELTO el 2026-07-20: se registró 'src-sea' (Servicio de Evaluación Ambiental) en sources/fuentes_aprobadas.json. Sigue pendiente la investigación real de derechos (términos de uso, licencia) de esa fuente -- no se ha hecho todavía, solo se cerró el hueco de registro."
+    },
+    {
+      "id": "obj-contratos-construccion",
+      "nombre": "Normativa y estándares de contratos de construcción",
+      "institucion_referente": "NO_VERIFICADO",
+      "materia": "contratos de construcción",
+      "tipo_norma": "otro",
+      "bloque_tematico": "contratos_construccion",
+      "estado": "pendiente_investigacion",
+      "rights_manifest_ref": null,
+      "notas": "No hay un único organismo/fuente claro: mezcla Código Civil (vía Ley Chile/BCN), normativa de contratos de obra pública (posible fuente adicional a registrar, p. ej. Dirección de Obras Públicas / ChileCompra) y usos contractuales del sector privado. Requiere decidir alcance antes de investigar."
+    },
+    {
+      "id": "obj-copropiedad",
+      "nombre": "Ley 21.442 sobre copropiedad inmobiliaria",
+      "institucion_referente": "src-leychile-bcn",
+      "materia": "instalaciones y copropiedad en edificación",
+      "tipo_norma": "ley",
+      "bloque_tematico": "instalaciones_accesibilidad_energia",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-leychile-bcn.json",
+      "notas": null
+    },
+    {
+      "id": "obj-accesibilidad-universal",
+      "nombre": "Normativa de accesibilidad universal en edificación (capítulo pertinente de la OGUC y normativa relacionada)",
+      "institucion_referente": "src-minvu",
+      "materia": "accesibilidad universal",
+      "tipo_norma": "reglamento",
+      "bloque_tematico": "instalaciones_accesibilidad_energia",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-minvu.json",
+      "notas": null
+    },
+    {
+      "id": "obj-eficiencia-energetica",
+      "nombre": "Ley 21.305 de Eficiencia Energética y normativa MINVU de calificación energética de viviendas",
+      "institucion_referente": "src-minvu",
+      "materia": "eficiencia energética en edificación",
+      "tipo_norma": "ley",
+      "bloque_tematico": "instalaciones_accesibilidad_energia",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-minvu.json",
+      "notas": "La ley en sí se publica vía BCN/Ley Chile, pero la normativa de aplicación (calificación energética) es de MINVU; se registra bajo MINVU por ser el caso de uso principal."
+    },
+    {
+      "id": "obj-catalogo-nch-construccion",
+      "nombre": "Catálogo de normas NCh de construcción relevantes (estructuras, diseño sísmico, instalaciones)",
+      "institucion_referente": "src-inn",
+      "materia": "normas técnicas chilenas de construcción",
+      "tipo_norma": "otro",
+      "bloque_tematico": "normas_tecnicas_nch",
+      "estado": "rechazada",
+      "rights_manifest_ref": "rights/rights_manifest_src-inn.json",
+      "notas": "El rechazo de INN (venta individual, reproducción/redistribución prohibida sin permiso escrito) cubre TODAS las normas NCh sin excepción conocida. No investigar norma por norma hasta tener una licencia comercial negociada con INN."
+    },
+    {
+      "id": "obj-dictamenes-contraloria-construccion",
+      "nombre": "Dictámenes de Contraloría sobre municipalidades, DOM y permisos de edificación",
+      "institucion_referente": "src-contraloria",
+      "materia": "dictámenes sobre municipalidades, DOM, permisos de edificación",
+      "tipo_norma": "dictamen",
+      "bloque_tematico": "jurisprudencia_dictamenes",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-contraloria.json",
+      "notas": "Recordatorio de dominio: los dictámenes de Contraloría SON vinculantes para la Administración del Estado (distinto de la jurisprudencia judicial, que no lo es)."
+    },
+    {
+      "id": "obj-jurisprudencia-judicial-construccion",
+      "nombre": "Jurisprudencia judicial relacionada con construcción, contratos y subcontratación",
+      "institucion_referente": "src-poder-judicial",
+      "materia": "jurisprudencia relacionada con construcción, contratos, subcontratación",
+      "tipo_norma": "jurisprudencia",
+      "bloque_tematico": "jurisprudencia_dictamenes",
+      "estado": "rechazada",
+      "rights_manifest_ref": "rights/rights_manifest_src-poder-judicial.json",
+      "notas": "El rechazo de Poder Judicial (uso comercial excluido, tratamiento masivo de datos prohibido sin autorización del Consejo Superior) cubre toda su jurisprudencia sin excepción conocida."
+    },
+    {
+      "id": "obj-diario-oficial-vigencia",
+      "nombre": "Diario Oficial como fuente transversal de fecha de publicación y seguimiento de vigencia",
+      "institucion_referente": "src-diario-oficial",
+      "materia": "publicaciones oficiales, promulgaciones, modificaciones normativas",
+      "tipo_norma": "otro",
+      "bloque_tematico": "vigencia_seguimiento",
+      "estado": "investigada_no_verificada",
+      "rights_manifest_ref": "rights/rights_manifest_src-diario-oficial.json",
+      "notas": "Uso comercial confirmado explícitamente; entrenamiento de IA y derivados siguen sin confirmar. Rol transversal: no es un 'objetivo de contenido' por sí solo, sino la fuente para verificar fecha de publicación/vigencia de todos los demás objetivos."
+    }
+  ]
+}

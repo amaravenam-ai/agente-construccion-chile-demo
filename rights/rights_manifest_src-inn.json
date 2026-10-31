@@ -1,0 +1,11 @@
+{
+  "source_id": "src-inn",
+  "permiso_entrenamiento": "no",
+  "permiso_uso_comercial": "no",
+  "permiso_derivados": "no",
+  "evidencia_legal": "Investigación realizada el 2026-07-19 mediante búsqueda web sobre inn.cl y su Unidad de Venta de Normas (ecommerce.inn.cl). Hallazgo negativo explícito y claro: 'sin permiso expreso en contrario, no se puede reproducir o utilizar de ninguna forma o por ningún medio, electrónico o mecánico, incluyendo fotocopiado, microfilm, digitalización, distribución en internet o intranet, sin permiso escrito del propietario' ninguna publicación ISO, adopción nacional (NCh-ISO) o Norma Chilena (NCh). Las normas se venden individualmente; las cuentas de usuario son de uso único; documentos en PDF autorizan solo una impresión para uso personal; el uso compartido de archivos está explícitamente prohibido, así como la reventa.",
+  "estado_verificacion": "rechazado",
+  "responsable_verificacion": "NO_VERIFICADO — investigación asistida por IA (Claude) el 2026-07-19; pendiente de confirmación por un responsable humano antes de solicitar licencia comercial especial.",
+  "fecha_verificacion": null,
+  "notas": "Fuentes consultadas: https://www.inn.cl/unidad-venta-de-normas , https://www.inn.cl/catalogo-de-normas-nch-e-iso , https://ecommerce.inn.cl/t-popup/faqinn . estado_verificacion se marca 'rechazado' porque la evidencia es una prohibición explícita de reproducción/redistribución sin permiso escrito, con venta individual por documento. Para usar cualquier norma NCh en este agente se requeriría negociar una licencia comercial explícita con INN que cubra ingesta en un sistema de recuperación/IA -- no basta con comprar copias individuales para uso personal."
+}

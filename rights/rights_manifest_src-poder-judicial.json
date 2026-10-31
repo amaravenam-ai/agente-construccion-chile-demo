@@ -1,0 +1,11 @@
+{
+  "source_id": "src-poder-judicial",
+  "permiso_entrenamiento": "NO_VERIFICADO",
+  "permiso_uso_comercial": "no",
+  "permiso_derivados": "no",
+  "evidencia_legal": "Investigación realizada el 2026-07-19 leyendo https://www.pjud.cl/post/condiciones-de-uso-de-este-portal . Hallazgo negativo explícito y claro: el portal 'autoriza a sus usuarios a utilizar, acceder en línea, imprimir, reproducir y almacenar la información...para fines particulares o académicos' EXCLUSIVAMENTE -- no se autoriza uso comercial. Además prohíbe expresamente la 'reproducción, modificación, distribución, transmisión o uso del portal y de sus contenidos para fines de una naturaleza diversa' a los autorizados, lo que excluye la creación de obras derivadas fuera de uso particular/académico. Hallazgo adicional relevante: se prohíbe el 'tratamiento masivo de datos y contenidos' sin autorización previa del Consejo Superior -- esto aplicaría directamente a cualquier ingesta automatizada tipo RAG, incluso si fuera solo para fines académicos.",
+  "estado_verificacion": "rechazado",
+  "responsable_verificacion": "NO_VERIFICADO — investigación asistida por IA (Claude) el 2026-07-19; pendiente de confirmación por un responsable humano antes de solicitar autorización especial.",
+  "fecha_verificacion": null,
+  "notas": "Fuente consultada: https://www.pjud.cl/post/condiciones-de-uso-de-este-portal . estado_verificacion se marca 'rechazado' (no 'NO_VERIFICADO') porque la evidencia encontrada es una prohibición explícita y clara para el caso de uso de este agente (uso comercial y tratamiento masivo de datos), no una simple ausencia de información. Para revertir este rechazo se requeriría solicitar autorización explícita al Consejo Superior del Poder Judicial para 'tratamiento masivo de datos y contenidos'. Recordatorio de dominio: toda jurisprudencia debe presentarse como no vinculante salvo indicación experta (ver retrieval/index.py:Document.vinculante), independientemente del estado de derechos."
+}

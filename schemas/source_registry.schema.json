@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "amalan-construccion-chile/source_registry.schema.json",
+  "title": "Registro de Fuente Jurídica",
+  "type": "object",
+  "required": [
+    "id",
+    "nombre",
+    "institucion",
+    "url",
+    "fecha_consulta",
+    "version",
+    "fecha_vigencia",
+    "estado",
+    "licencia_derechos",
+    "permiso_entrenamiento",
+    "permiso_uso_comercial",
+    "permiso_derivados",
+    "sha256",
+    "evidencia_legal"
+  ],
+  "properties": {
+    "id": { "type": "string", "description": "Identificador único estable de la fuente." },
+    "nombre": { "type": "string" },
+    "institucion": { "type": "string" },
+    "url": { "type": "string" },
+    "fecha_consulta": { "type": "string", "format": "date" },
+    "version": { "type": "string" },
+    "fecha_vigencia": { "type": "string" },
+    "estado": {
+      "type": "string",
+      "enum": ["vigente", "modificada", "derogada", "proyecto", "no_verificada"]
+    },
+    "licencia_derechos": {
+      "type": "string",
+      "description": "Descripción de la licencia o derechos declarados para la fuente. 'NO_VERIFICADO' si no hay evidencia."
+    },
+    "permiso_entrenamiento": {
+      "type": "string",
+      "enum": ["si", "no", "NO_VERIFICADO"]
+    },
+    "permiso_uso_comercial": {
+      "type": "string",
+      "enum": ["si", "no", "NO_VERIFICADO"]
+    },
+    "permiso_derivados": {
+      "type": "string",
+      "enum": ["si", "no", "NO_VERIFICADO"]
+    },
+    "sha256": {
+      "type": "string",
+      "description": "SHA-256 del contenido registrado localmente, si existe. 'NO_VERIFICADO' si no hay copia local."
+    },
+    "evidencia_legal": {
+      "type": "string",
+      "description": "Referencia a la evidencia que sustenta los permisos declarados (ej. texto de licencia, correo de autorización). 'NO_VERIFICADO' si no existe."
+    },
+    "materia": { "type": "string" },
+    "region": { "type": "string" },
+    "comuna": { "type": "string" },
+    "tipo_norma": {
+      "type": "string",
+      "enum": ["ley", "reglamento", "circular", "dictamen", "jurisprudencia", "opinion", "proyecto_de_ley", "otro"]
+    },
+    "notas": { "type": "string" }
+  },
+  "additionalProperties": false
+}

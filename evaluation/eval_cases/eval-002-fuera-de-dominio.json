@@ -1,0 +1,10 @@
+{
+  "id": "eval-002-fuera-de-dominio",
+  "descripcion": "Pregunta sin relación con construcción; no hay documentos que puedan fundamentarla, debe responder NO VERIFICADO.",
+  "pregunta": "Cual es la capital de Francia",
+  "filtros": {},
+  "expectativas": {
+    "no_verificado": true,
+    "escalamiento_requerido": true
+  }
+}

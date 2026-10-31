@@ -1,0 +1,62 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "amalan-construccion-chile/response.schema.json",
+  "title": "Respuesta Estructurada del Agente",
+  "type": "object",
+  "required": [
+    "resumen",
+    "jurisdiccion",
+    "fecha_consulta",
+    "norma_o_documento",
+    "articulo_seccion_pagina",
+    "vigencia_conocida",
+    "nivel_confianza",
+    "supuestos",
+    "riesgos_informacion_faltante",
+    "advertencia",
+    "recomendacion",
+    "no_verificado"
+  ],
+  "properties": {
+    "resumen": { "type": "string" },
+    "jurisdiccion": { "type": "string", "const": "Chile" },
+    "fecha_consulta": { "type": "string", "format": "date" },
+    "norma_o_documento": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Documentos usados como fuente. Vacío si no_verificado es true."
+    },
+    "articulo_seccion_pagina": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "vigencia_conocida": { "type": "string" },
+    "nivel_confianza": {
+      "type": "string",
+      "enum": ["alto", "medio", "bajo", "no_verificado"]
+    },
+    "supuestos": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "riesgos_informacion_faltante": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "advertencia": {
+      "type": "string",
+      "description": "Debe indicar que la respuesta no sustituye asesoría jurídica profesional."
+    },
+    "recomendacion": {
+      "type": "string",
+      "description": "Recomendación de consultar abogado, arquitecto, calculista, prevencionista o DOM cuando corresponda."
+    },
+    "no_verificado": {
+      "type": "boolean",
+      "description": "true si no existe evidencia documental suficiente. En ese caso el resumen debe ser exactamente el mensaje NO VERIFICADO estándar."
+    },
+    "escalamiento_requerido": { "type": "boolean" },
+    "auditoria_id": { "type": "string" }
+  },
+  "additionalProperties": false
+}
